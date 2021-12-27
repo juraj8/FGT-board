@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name ER-CON30HB)(type KiCad)(uri ${KIPRJMOD}/lib/display-lib/ER-CON30HB.pretty)(options "")(descr ""))
+)
