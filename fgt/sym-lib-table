@@ -1,3 +1,4 @@
 (sym_lib_table
-  (lib (name display)(type Legacy)(uri ${KIPRJMOD}/lib/display-lib/erc12864.lib)(options "")(descr ""))
+  (lib (name display)(type Legacy)(uri ${KIPRJMOD}/library/display-lib/erc12864.lib)(options "")(descr ""))
+  (lib (name Espressif)(type Legacy)(uri ${KIPRJMOD}/library/esp/libraries/Espressif.lib)(options "")(descr ""))
 )

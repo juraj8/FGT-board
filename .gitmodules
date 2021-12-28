@@ -1,0 +1,3 @@
+[submodule "fgt/library/esp"]
+	path = fgt/library/esp
+	url = https://github.com/espressif/kicad-libraries.git

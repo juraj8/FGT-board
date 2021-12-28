@@ -1,3 +1,4 @@
 (fp_lib_table
-  (lib (name ER-CON30HB)(type KiCad)(uri ${KIPRJMOD}/lib/display-lib/ER-CON30HB.pretty)(options "")(descr ""))
+  (lib (name ER-CON30HB)(type KiCad)(uri ${KIPRJMOD}/library/display-lib/ER-CON30HB.pretty)(options "")(descr ""))
+  (lib (name Espressif)(type KiCad)(uri ${KIPRJMOD}/library/esp/footprints/Espressif.pretty)(options "")(descr ""))
 )
