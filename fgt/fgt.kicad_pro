@@ -126,9 +126,8 @@
       },
       "track_widths": [
         0.0,
-        0.3,
         0.5,
-        0.8
+        1.0
       ],
       "via_dimensions": [
         {
@@ -487,11 +486,11 @@
   },
   "pcbnew": {
     "last_paths": {
-      "gencad": "",
+      "gencad": "fgt.cad",
       "idf": "",
       "netlist": "fgt.net",
       "specctra_dsn": "",
-      "step": "",
+      "step": "fgt.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""
