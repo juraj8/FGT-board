@@ -126,6 +126,7 @@
       },
       "track_widths": [
         0.0,
+        0.3,
         0.5,
         1.0
       ],
@@ -543,5 +544,9 @@
       "display"
     ]
   ],
-  "text_variables": {}
+  "text_variables": {
+    "DATE": "2022-01-04",
+    "REVISION": "v1.3.0",
+    "TITLE": "FGT"
+  }
 }

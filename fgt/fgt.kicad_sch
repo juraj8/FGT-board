@@ -5,9 +5,9 @@
   (paper "A4")
 
   (title_block
-    (title "FGT")
-    (date "2022-01-04")
-    (rev "v1.1.0")
+    (title "${TITLE}")
+    (date "${DATE}")
+    (rev "${REVISION}")
     (company "Juraj Giertl")
     (comment 1 "j74a8g@gmail.com")
   )
