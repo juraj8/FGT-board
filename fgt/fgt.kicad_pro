@@ -455,20 +455,9 @@
           "/TXD",
           "/VBUS",
           "Net-(C1-Pad1)",
-          "Net-(C10-Pad2)",
-          "Net-(C11-Pad2)",
-          "Net-(C12-Pad1)",
-          "Net-(C13-Pad1)",
-          "Net-(C13-Pad2)",
-          "Net-(C14-Pad1)",
-          "Net-(C14-Pad2)",
-          "Net-(C15-Pad1)",
-          "Net-(C16-Pad2)",
           "Net-(C17-Pad2)",
           "Net-(C18-Pad2)",
           "Net-(C19-Pad1)",
-          "Net-(C9-Pad1)",
-          "Net-(J3-Pad1)",
           "USB_D+",
           "USB_D-"
         ],
@@ -545,8 +534,8 @@
     ]
   ],
   "text_variables": {
-    "DATE": "2022-01-04",
-    "REVISION": "v1.3.0",
+    "DATE": "2022-01-24",
+    "REVISION": "v1.4.0",
     "TITLE": "FGT"
   }
 }
