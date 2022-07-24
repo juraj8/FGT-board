@@ -349,7 +349,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "similar_labels": "warning",
       "unannotated": "error",
@@ -395,10 +395,7 @@
         "microvia_diameter": 0.0,
         "microvia_drill": 0.0,
         "name": "AC",
-        "nets": [
-          "/AC_L",
-          "/AC_N"
-        ],
+        "nets": [],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.5,
@@ -418,7 +415,6 @@
         "name": "Power",
         "nets": [
           "+3V3",
-          "+5V",
           "GND"
         ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
@@ -439,11 +435,11 @@
         "microvia_drill": 0.0,
         "name": "Signals",
         "nets": [
-          "/BOOT",
           "/CHIP_PU",
-          "/LCD_BCK",
+          "/DATA",
           "/LCD_DC",
           "/LCD_RST",
+          "/Power/sw",
           "/RXD",
           "/SCL",
           "/SDA",
@@ -452,14 +448,12 @@
           "/SPI_SCK",
           "/SW+",
           "/SW-",
+          "/SWM",
           "/TXD",
-          "/VBUS",
-          "Net-(C1-Pad1)",
-          "Net-(C17-Pad2)",
-          "Net-(C18-Pad2)",
-          "Net-(C19-Pad1)",
-          "USB_D+",
-          "USB_D-"
+          "/V_bat_adc",
+          "/display/_lcd_bck_cnt",
+          "B_CHECK",
+          "Net-(C18-Pad2)"
         ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
@@ -531,11 +525,15 @@
     [
       "00000000-0000-0000-0000-000061cea1ba",
       "display"
+    ],
+    [
+      "0856a44a-0fd1-4081-ba58-6bcbc312a7b0",
+      "Power"
     ]
   ],
   "text_variables": {
-    "DATE": "2022-01-24",
-    "REVISION": "v1.4.0",
+    "DATE": "2022-07-24",
+    "REVISION": "v1.5.0",
     "TITLE": "FGT"
   }
 }
